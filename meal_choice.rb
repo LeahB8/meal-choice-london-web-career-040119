@@ -2,7 +2,12 @@
 # passed into it and defaults to meat.
 
 def meal_choice(choice = "meat")
- puts "I would like a #{choice} meal."
+  return "I would like a #{choice} meal."
+end
+
+meal_choice
+
+meal_choice("vegan")
 end
 
 meal_choice
