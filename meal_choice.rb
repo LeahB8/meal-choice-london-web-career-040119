@@ -5,10 +5,6 @@ def meal_choice(choice = "meat")
   return "I would like a #{choice} meal."
 end
 
-meal_choice
-
-meal_choice("vegan")
-end
 
 meal_choice
 
